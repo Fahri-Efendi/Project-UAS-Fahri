@@ -1,0 +1,115 @@
+    body {
+      padding-top: 101px;
+    }
+
+    .section-head {
+      border-left: 5px solid #008a73;
+      padding-left: 12px;
+      font-weight: bold;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .top-bar {
+      background-color: #004d40;
+      color: white;
+      font-size: 14px;
+      z-index: 1031; /* lebih tinggi dari header biasa */
+    }
+
+    .top-bar a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .navbar-main2 {
+      background-color: azure;
+    }
+    .navbar-nav .nav-link {
+      color: #333; /* Warna default menu */
+      transition: 0.3s ease;
+    }
+    .navbar-nav .nav-link:hover,
+    .navbar-nav .nav-link:focus {
+      color: #00897b; /* Warna saat hover (ganti sesuai selera) */
+    }
+
+    .bg {
+      background-color: #004d40;
+      color: white;
+      /* background: linear-gradient(135deg, #28a745, #218838); */
+    }
+
+    .feature-card {
+      transition: transform 0.3s ease;
+      border: none;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    .feature-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card-img-top {
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .mitra-section {
+      background: url('img/Kampus PWBI.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+    }
+    .mitra-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.45);
+      z-index: 0;
+    }
+    .mitra-section .container {
+      position: relative;
+      z-index: 1;
+    }
+
+    .section-line {
+      display: inline-block;
+      width: 4px;
+      height: 24px;
+      background-color: #ffffff;
+      border-radius: 2px;
+    }
+
+    .layanan-box {
+      border: 1px solid #dee2e6;
+      transition: transform 0.3s ease;
+    }
+    .layanan-img {
+      max-width: 300px;
+      height: 150px;
+      object-fit: cover;
+    }
+    .fasilitas-box {
+      border: 1px solid #dee2e6;
+      transition: transform 0.3s ease;
+    }
+    .fasilitas-img {
+      max-width: 300px;
+      height: 150px;
+      object-fit: cover;
+    }
+    .buku-wisuda-box {
+      border: 1px solid #dee2e6;
+      transition: transform 0.3s ease;
+    }
+    .buku-wisuda-img {
+      max-width: 300px;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    footer a:hover {
+      color: #00bfa5; /* warna hijau muda */
+    }
